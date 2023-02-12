@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="liverserver.css" />
+    <!-- some font awesome icon -->
+    <script
+      src="https://kit.fontawesome.com/eabb013074.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="https://scontent.fkul3-3.fna.fbcdn.net/v/t1.6435-9/133561356_1124756597927674_40914529903133005_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeESnuLkKOdtY0x5G8YBMUL72zjWWY35rVbbONZZjfmtVkWrEO_b6H90yX6_JEleedp22MKj2RgGapGdn4rvB-_3&_nc_ohc=Cuh0OTaZKJcAX9nefn7&_nc_ht=scontent.fkul3-3.fna&oh=00_AfAAMzyHTnqebsuaZryPMaNkiAexMexu2UYGZ-T1mpMkFQ&oe=640EB613" width="250px" heigth="250px" />
+         
+          <ul>
+            <li><a href="https://discord.com" target="_blank">Home</a></li>
+            <li><a href="https://apspace.apu.edu.my/tabs/more" target="_blank">About</a></li>
+            <li><a href="https://downloadmoreram.com/download.html" target="_blank">Services</a></li>
+            <li><a href="https://memebase.cheezburger.com" target="_blank">Portfolio</a></li>
+            <li><a href="https://thatsthefinger.com" target="_blank">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>University student at APU</p> 
+          <h1>Hi, I'm <br /><span>Keith_Lo_Ze_Hui</span> from Avatar</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------about------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="https://scontent.fkul3-4.fna.fbcdn.net/v/t39.30808-1/298941330_1506117136458283_3710249116472947972_n.jpg?stp=dst-jpg_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGMpE5-CF1H0PBz8Vf2BiiXMHIp8YMsAAAwcinxgywAAD6-RVZ0cZcPPVbtzkHBt-NnPrjSTesIvZWPvbWuMB7S&_nc_ohc=wJoc8y_umJwAX-wxtdr&_nc_ht=scontent.fkul3-4.fna&oh=00_AfBwXn66LX2XJhp3aSqadR6Up6qzPO81Vwtv3l0G2wySiQ&oe=63EB90EC" />
+          </div>
+          <div class="about-col-2">
+            <!-- need to indent below -->
+            <h2 class="sub-title">About me</h2>
+            <p>
+              I am a 20 year old (at the time of making this website). Studying Software engeenerring in APU, 
+              this is my 1st time building a
+              a website.i had some help from my frineds.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <!-- within opentab function is an id -->
+
+            <div class="tab-contents active-content" id="skills">
+              <ul>
+                <li><span>Studied at</span><br />APU (Asia Pacific University)</li>
+                <li><span>Worked As</span><br />PA for PJDC</li>
+                <li>
+                  <span>Coding experience</span><br />amature coder
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2016 - Current</span><br />APU (Asia Pacific University)
+                </li>
+                <li><span>2019 - 2021</span><br />PA for PJDC</li>
+                <li>
+                  <span>2017 - 2019</span><br />amature coder
+                </li>
+              </ul>
+            </div>  
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2016</span><br />Asia Pacific University of Inovation and Technology 
+                </li>
+                <li><span>2016</span><br />Asia Pacific University of Inovation and Technology </li>
+                <li><span>2014</span><br />Asia Pacific University of Inovation and Technology </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div id="sevices">
+      <div class="container">
+        <h2 class="sub-title">My services</h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Design</h3>
+            <p>
+              I am very new at building a website this is my 1st time trying and hopefully it turns out well, as i could use this profolio 
+              in my future
+            </p>
+            <a href="https://www.youtube.com/watch?v=LLFhKaqnWwk&ab_channel=RickAstley" target="_blank">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-gamepad"></i>
+            <h3>Game Design</h3>
+            <p>
+              I am typing as a test run for the text box at the bottom of the screen it will br feeled later on.
+              This is also to help with my future profolio.
+            </p>
+            <a href="https://www.youtube.com/watch?v=YbaTur4A1OU&ab_channel=Wolfen" target="_blank">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-regular fa-address-book"></i>
+            <h3>Data Analytics</h3>
+            <p>
+                According to all known laws
+                of aviation,
+                there is no way a bee
+                should be able to fly.
+                Its wings are too small to get
+                its fat little body off the ground.
+                The bee, of course, flies anyway
+                because bees don't care
+                what humans think is impossible.
+                
+            </p>
+            <a href="https://www.youtube.com/watch?v=jSWpJpSqNL4&ab_channel=Chedster33" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+          <div class="work">
+            <img src="https://png.pngtree.com/png-clipart/20200401/original/pngtree-modern-flat-design-concept-of-team-work-design-with-characters-in-png-image_5332905.jpg" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                this website if for me to use as a template for a profolio webste. with help from multiple people.
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://png.pngtree.com/png-clipart/20190904/original/pngtree-a-man-at-work-png-image_4463549.jpg" />
+          </div>
+          <div class="work">
+            <img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-team-work-brainstorming-vector-presentation-of-the-project-innovation-idea-discussion-png-image_5204715.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-content");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-content");
+      }
+    </script>
+    
+    <script>
+      /* form submit function*/
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw0fp2GPp2J_oz9br3iRP1j7XnBjOGQ5k0x1wRULgiRyNgQpho_BW-Lm5h4yr493xXr/exec";
+      const form = document.forms["submit-to-google-sheet"]
+      const msg = document.getElementById("msg")
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault()
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error("Error!", error.message));
+      })
+    </script>
+  </body>
+</html>
